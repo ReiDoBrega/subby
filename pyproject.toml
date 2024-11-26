@@ -9,7 +9,7 @@ repository = "https://github.com/vevv/subby"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pymp4 = "~1.4.0"
+pymp4 = {git = "https://github.com/micaelsilva/pymp4.git" }
 beautifulsoup4 = "^4.11.2"
 tinycss = "^0.4"
 click = "^8.1.3"
